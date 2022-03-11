@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - End Point
  *
  * Return: Always 0 (success)
