@@ -7,6 +7,8 @@
  */
 int main(void)
 {
-	putchar("abcdefghijklmnopqrstuvwxyz\n");
+	int ch;
+	for(ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
 	return (0);
 }
