@@ -1,25 +1,26 @@
 #include <stdio.h>
+
 /**
- * main - represent Entry Point to the program
+ * main - Print single digit numbers in the formart
  *
- * Return: 0 to stop the program
+ * Description: Sepaeated by commas
+ * Return: Always(0) Success
  */
+
 int main(void)
 {
-int a = '0';
-int i;
+	int i;
 
-for (i = 0; i < 10; i++)
-{
-putchar(a);
-a++;
-}
-a = '1';
-for (i = 0; i < 6; i++)
-{
-putchar('0' + a);
-a++;
-}
-putchar('\n');
-return (0);
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
+	if (i != 57)
+	{
+		putchar(',');
+		putchar(' ');
+	}
+	putchar('\n');
+
+	return (0);
 }
