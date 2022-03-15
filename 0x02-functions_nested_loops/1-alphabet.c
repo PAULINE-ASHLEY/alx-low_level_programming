@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * main - creation of function void print_alphabet(void)
- *
- * Return: Always 0
+ * print_alphabet - prints the alphabet, in lowercase, followed by a newline
  */
 void print_alphabet(void)
 {
 	char p;
+
 	p = 'a';
 
 	while (p <= 'z')
