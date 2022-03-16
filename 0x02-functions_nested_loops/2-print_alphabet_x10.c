@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - End point
- *
- * Return: Always 0
+ * print_alphabet_x10 - prints 10 times the alphabet
+ * followed by a new line
  */
 void print_alphabet_x10(void)
 {
@@ -12,7 +11,6 @@ void print_alphabet_x10(void)
 	int i;
 
 	i = 0;
-	
 	while (i < 10)
 	{
 		p = 'a';
