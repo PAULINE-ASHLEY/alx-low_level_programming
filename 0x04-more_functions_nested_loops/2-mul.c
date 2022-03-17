@@ -1,11 +1,14 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0
+ * mul - multiply int a and int b
+ * @a: int a
+ * @b: int b
+ * Return: the value of the multiplication of the two digits
  */
 int mul(int a, int b)
 {
-	int a = 98;
-	int b
+	int c = a * b;
+
+	return (c);
+}
