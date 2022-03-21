@@ -9,11 +9,11 @@
  */
 int _strlen(char *s)
 {
-	char *s;
+	char s;
 	int i;
 
-	*s = "My first strlen!";
-	i = _strlen(*s);
+	s = "My first strlen!";
+	i = _strlen(s);
 	_putchar(i);
 	return (0);
 }
