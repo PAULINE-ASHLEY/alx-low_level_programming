@@ -20,7 +20,7 @@ void swap_int(int *a, int *b)
 
 	c = *a;
 	*a = *b;
-	*b = temp;
+	*b = c;
 
 	_putchar(*a);
 	_putchar(*b);
