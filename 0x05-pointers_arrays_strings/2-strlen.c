@@ -10,13 +10,14 @@
  */
 int _strlen(char *s)
 { 
-	*s = s;
-	s = "My first strlen!";
-	int len;
+	int i;
 
-	len = strlen(s);
+	i = 0;
 
-	_putchar(len);
+	while (s[i] != '\0')
+	{
+		i++;
+	}
 
-	return (0);
+	return (1);
 }
