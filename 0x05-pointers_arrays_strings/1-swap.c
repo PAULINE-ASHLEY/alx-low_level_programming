@@ -9,15 +9,16 @@
  */
 void swap_int(int *a, int *b)
 {
+	int c;
+
 	*a = 98;
 	*b = 42;
 
 	_putchar(*a);
 	_putchar(*b);
        
-	temp;
 
-	temp = *a;
+	c = *a;
 	*a = *b;
 	*b = temp;
 
