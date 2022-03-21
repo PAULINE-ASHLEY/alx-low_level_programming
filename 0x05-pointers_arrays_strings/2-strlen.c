@@ -8,9 +8,8 @@
  * Return: Always 0
  */
 int _strlen(char *s)
-{
-	size_t strlen(const char *s); 
-	char *s = "My first strlen!";
+{ 
+	*s[] = "My first strlen!";
 	int i;
 
 	i = strlen(*s);
