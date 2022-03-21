@@ -9,10 +9,10 @@
  */
 int _strlen(char *s)
 {
-	char *s[16] = "My first strlen!";
+	char s[16] = "My first strlen!";
 	int i;
 
-	for (i = 0; *s[i] != '\0'; ++i);
+	for (i = 0; s[i] != '\0'; ++i);
 	_putchar(i);
 
 	return (0);
